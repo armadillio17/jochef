@@ -128,3 +128,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 Feel free to contribute to this project or reach out with any questions. Happy coding! 🚀
+# jochef
+Jochef Bakery POS
