@@ -72,7 +72,7 @@ To get started with the POS system, follow these steps:
 7. **Run migrations**:
    ```bash
    php artisan migrate --seed
-   ```
+```
 
 8. **Link Storage**:
    ```bash

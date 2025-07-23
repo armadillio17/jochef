@@ -90,15 +90,6 @@ export default function Login({ status, canResetPassword, version }) {
                     </PrimaryButton>
                 </div>
             </form>
-            <div className="divide-y divide-gray-300 divde-solid">
-            <div className="text-center py-2"></div>
-            <div className="text-center py-3 text-gray-400 uppercase">info shop version {version} <br></br> Developed by: infomax </div>
-            </div>
-
-            <div className='flex justify-center'>
-            <img src={infomaxlogo} alt="" style={{height:'60px', objectFit:'contain'}}/>
-                <img src={infoshopLogo} alt="" style={{height:'60px', objectFit:'contain'}}/>
-            </div>
             
         </GuestLayout>
     );

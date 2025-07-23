@@ -47,7 +47,7 @@ class HandleInertiaRequests extends Middleware
                 'user' => $request->user(),
             ],
             'settings'=>[
-                'shop_name'=>$shopNameMeta->meta_value,
+                'shop_name'=>'JoChef',
             ],
             'modules'=>$modules,
             'userPermissions'=>$permissions->pluck('name'),
