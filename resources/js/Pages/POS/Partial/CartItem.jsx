@@ -53,7 +53,7 @@ export default function CartItems() {
                     variant="body2"
                     sx={{ color: 'text.primary', display: 'inline' }}
                   >
-                    PHP{(item.price-item.discount).toFixed(2)} X {item.quantity} = <b>PHP{((item.price-item.discount) * item.quantity).toFixed(2)}</b>
+                    ₱{(item.price-item.discount).toFixed(2)} X {item.quantity} = <b>₱{((item.price-item.discount) * item.quantity).toFixed(2)}</b>
                     <br></br>
                   </Typography>
                   </>

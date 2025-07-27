@@ -69,7 +69,7 @@ export default function ProductItem({ product }) {
                         borderRadius: '4px',
                     }}
                 >
-                    PHP{price}
+                    ₱{price}
                 </Box>
             )}
         </Card>

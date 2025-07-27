@@ -148,12 +148,11 @@ export default function Dashboard({ data, logo, version, store_name }) {
                                         fontSize: 14,
                                         textTransform: "uppercase",
                                     }}
-                                    id="testing-valuation"
                                 >
                                     Total valuation
                                 </Typography>
                                 <Typography variant="h5" component="div">
-                                    PHP {data.totalValuation}
+                                    ₱ {data.totalValuation}
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -191,7 +190,7 @@ export default function Dashboard({ data, logo, version, store_name }) {
                                     Customer balance
                                 </Typography>
                                 <Typography variant="h5" component="div">
-                                    PHP {data.customerBalance}
+                                    ₱ {data.customerBalance}
                                 </Typography>
                             </CardContent>
                         </Card>

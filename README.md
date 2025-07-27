@@ -120,6 +120,9 @@ If you use this project or any of its contents, please provide proper attributio
 
 "This project is based on Infoshop by Infomax / Nifras Usanar."
 
+## FrontEnd Build
+- Run **export NODE_OPTIONS="--max-old-space-size=4096" xvfb-run -a npm run build** to update changes to the app
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
