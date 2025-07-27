@@ -134,7 +134,7 @@ export default function DailyCashDialog({
                                     input: {
                                         startAdornment: (
                                             <InputAdornment position="start">
-                                                ₱
+                                                PHP
                                             </InputAdornment>
                                         ),
                                     },

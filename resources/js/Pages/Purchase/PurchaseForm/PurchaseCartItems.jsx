@@ -67,7 +67,7 @@ export default function PurchaseCartItems() {
                             <strong>Total Cost Amount:</strong>
                         </TableCell>
                         <TableCell>
-                            <strong>₱{cartTotal.toFixed(2)}</strong>
+                            <strong>PHP{cartTotal.toFixed(2)}</strong>
                         </TableCell>
                     </TableRow>
                     <TableRow>
@@ -75,7 +75,7 @@ export default function PurchaseCartItems() {
                             <strong>Total Profit Amount:</strong>
                         </TableCell>
                         <TableCell>
-                            <strong>₱{totalProfit.toFixed(2)}</strong>
+                            <strong>PHP{totalProfit.toFixed(2)}</strong>
                         </TableCell>
                     </TableRow>
                     <TableRow>
