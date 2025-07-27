@@ -152,7 +152,7 @@ export default function Dashboard({ data, logo, version, store_name }) {
                                     Total valuation
                                 </Typography>
                                 <Typography variant="h5" component="div">
-                                    Rs. {data.totalValuation}
+                                    ₱ {data.totalValuation}
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -190,7 +190,7 @@ export default function Dashboard({ data, logo, version, store_name }) {
                                     Customer balance
                                 </Typography>
                                 <Typography variant="h5" component="div">
-                                    Rs. {data.customerBalance}
+                                    ₱ {data.customerBalance}
                                 </Typography>
                             </CardContent>
                         </Card>

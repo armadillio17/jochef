@@ -293,7 +293,7 @@ export default function CartItemModal() {
                                     input: {
                                         startAdornment: (
                                             <InputAdornment position="start">
-                                                Rs.
+                                                ₱
                                             </InputAdornment>
                                         ),
                                     },
@@ -331,7 +331,7 @@ export default function CartItemModal() {
                                         input: {
                                             startAdornment: (
                                                 <InputAdornment position="start">
-                                                    Rs.
+                                                    ₱
                                                 </InputAdornment>
                                             ),
                                         },
@@ -365,7 +365,7 @@ export default function CartItemModal() {
                                         input: {
                                             startAdornment: (
                                                 <InputAdornment position="start">
-                                                    Rs.
+                                                    ₱
                                                 </InputAdornment>
                                             ),
                                         },
@@ -432,7 +432,7 @@ export default function CartItemModal() {
                                             input: {
                                                 startAdornment: (
                                                     <InputAdornment position="start">
-                                                        Rs.
+                                                        ₱
                                                     </InputAdornment>
                                                 ),
                                                 readOnly: true,
@@ -464,7 +464,7 @@ export default function CartItemModal() {
                                             input: {
                                                 startAdornment: (
                                                     <InputAdornment position="start">
-                                                        Rs.
+                                                        ₱
                                                     </InputAdornment>
                                                 ),
                                                 readOnly: true,
@@ -502,7 +502,7 @@ export default function CartItemModal() {
                                             input: {
                                                 startAdornment: (
                                                     <InputAdornment position="start">
-                                                        Rs.
+                                                        ₱
                                                     </InputAdornment>
                                                 ),
                                             },
@@ -576,7 +576,7 @@ export default function CartItemModal() {
                                             formState.product_type === "reload", //Make cost un editable if reload enabled
                                         startAdornment: (
                                             <InputAdornment position="start">
-                                                Rs.
+                                                ₱
                                             </InputAdornment>
                                         ),
                                         endAdornment: (

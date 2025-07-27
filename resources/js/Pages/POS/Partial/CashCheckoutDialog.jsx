@@ -119,7 +119,7 @@ export default function CashCheckoutDialog({ disabled }) {
                 onClick={handleClickOpen}
                 disabled={disabled}
             >
-                {cartTotal < 0 ? `REFUND Rs.${Math.abs(cartTotal)}` : `CASH Rs.${cartTotal}`}
+                {cartTotal < 0 ? `REFUND ₱${Math.abs(cartTotal)}` : `CASH ₱${cartTotal}`}
             </Button>
             <Dialog
                 fullWidth={true}
@@ -175,7 +175,7 @@ export default function CashCheckoutDialog({ disabled }) {
                             input: {
                                 style: { textAlign: 'center' },
                                 placeholder: cartTotal < 0 ? 'Refund Amount' : 'Amount Received',
-                                startAdornment: <InputAdornment position="start">Rs.</InputAdornment>,
+                                startAdornment: <InputAdornment position="start">₱</InputAdornment>,
                             },
                         }}
                     />
@@ -199,7 +199,7 @@ export default function CashCheckoutDialog({ disabled }) {
                                 shrink: true,
                             },
                             input: {
-                                startAdornment: <InputAdornment position="start">Rs.</InputAdornment>,
+                                startAdornment: <InputAdornment position="start">₱</InputAdornment>,
                                 endAdornment: (
                                     <InputAdornment position="start">
                                         <IconButton color="primary" onClick={discountPercentage}>
@@ -225,7 +225,7 @@ export default function CashCheckoutDialog({ disabled }) {
                                 input: {
                                     readOnly: true,
                                     style: { textAlign: 'center' },
-                                    startAdornment: <InputAdornment position="start">Rs.</InputAdornment>,
+                                    startAdornment: <InputAdornment position="start">₱</InputAdornment>,
                                 },
                             }}
                         />
@@ -241,7 +241,7 @@ export default function CashCheckoutDialog({ disabled }) {
                             slotProps={{
                                 input: {
                                     readOnly: true,
-                                    startAdornment: <InputAdornment position="start">Rs.</InputAdornment>,
+                                    startAdornment: <InputAdornment position="start">₱</InputAdornment>,
                                 },
                             }}
                         />

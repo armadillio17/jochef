@@ -53,7 +53,7 @@ export default function CartItems() {
                     variant="body2"
                     sx={{ color: 'text.primary', display: 'inline' }}
                   >
-                    RS.{(item.price-item.discount).toFixed(2)} X {item.quantity} = <b>RS.{((item.price-item.discount) * item.quantity).toFixed(2)}</b>
+                    ₱{(item.price-item.discount).toFixed(2)} X {item.quantity} = <b>₱{((item.price-item.discount) * item.quantity).toFixed(2)}</b>
                     <br></br>
                   </Typography>
                   </>

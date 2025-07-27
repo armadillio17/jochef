@@ -218,7 +218,7 @@ export default function PaymentsCheckoutDialog({
                                     input: {
                                         startAdornment: (
                                             <InputAdornment position="start">
-                                                Rs.
+                                                ₱
                                             </InputAdornment>
                                         ),
                                         endAdornment: (
@@ -253,7 +253,7 @@ export default function PaymentsCheckoutDialog({
                                     input: {
                                         startAdornment: (
                                             <InputAdornment position="start">
-                                                Rs.
+                                                ₱
                                             </InputAdornment>
                                         ),
                                         readOnly: true,
@@ -286,7 +286,7 @@ export default function PaymentsCheckoutDialog({
                                         input: {
                                             startAdornment: (
                                                 <InputAdornment position="start">
-                                                    Rs.
+                                                    ₱
                                                 </InputAdornment>
                                             ),
                                         },
@@ -359,7 +359,7 @@ export default function PaymentsCheckoutDialog({
                                     </TableCell>
                                     {/* Display Payment Amount */}
                                     <TableCell align="right">
-                                        <strong>Rs. {(payment.amount).toFixed(2)}</strong>
+                                        <strong>₱ {(payment.amount).toFixed(2)}</strong>
                                     </TableCell>
                                     {/* Action Button to delete payment */}
                                     <TableCell align="center">

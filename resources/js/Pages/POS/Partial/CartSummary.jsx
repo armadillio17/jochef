@@ -30,7 +30,7 @@ export default function CartSummary() {
                 secondaryAction={
                     <Typography variant="h5" color="initial" sx={{fontSize:{sm:'1rem', xs:'1.2rem'}}}>
                         {/* Rs.{(cartTotal-discount).toFixed(2)} */}
-                        <strong>Rs.{numeral(cartTotal).format('0,00.00')}</strong> 
+                        <strong>₱{numeral(cartTotal).format('0,00.00')}</strong> 
                     </Typography>
                 }
             >
