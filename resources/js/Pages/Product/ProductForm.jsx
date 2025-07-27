@@ -353,6 +353,7 @@ export default function Product({ product, collection, product_code, contacts, p
                                 <MenuItem value={"PC"}>PC</MenuItem>
                                 <MenuItem value={"KG"}>KG</MenuItem>
                                 <MenuItem value={"Meter"}>Meter</MenuItem>
+                                <MenuItem value={"Grams"}>Grams</MenuItem>
                             </TextField>
                         </Grid>
                     </Grid>
