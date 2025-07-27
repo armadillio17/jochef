@@ -117,11 +117,11 @@ const columns = (handleRowClick) => [
                         <KeyboardReturnIcon />
                     </IconButton>
                 )}
-                {dayjs(params.row.created_at).isSame(dayjs(), 'day') && (
+                {/* {dayjs(params.row.created_at).isSame(dayjs(), 'day') && (
                     <IconButton color="error" onClick={() => handleRowClick(params.row, "delete")}>
                         <HighlightOffIcon />
                     </IconButton>
-                )}
+                )} */}
             </>
         ),
     },
